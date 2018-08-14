@@ -32,6 +32,15 @@ use think\Model;
                 'error'=>'',
             );
         }
-        
+        /**
+         * @access public
+         * @param  type
+         * @return array
+         * @author 丁野   2018-08-14 10:52:52 新建一个方法
+         */
+        public function getUserInfo(){
+            $data = DB::name("member")->field()->select();
+
+        }
     }
 ?>
