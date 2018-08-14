@@ -32,15 +32,6 @@ use think\Model;
                 'error'=>'',
             );
         }
-        /**
-         * @access public
-         * @param  type
-         * @return array
-         * @author 丁野   2018-07-04 10:27:42
-         */
-        public function dyalndylan(){
-
-
-        }
+        
     }
 ?>
